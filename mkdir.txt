@@ -1,0 +1,18 @@
+create multiple directory using single mkdir
+
+          A
+         / \
+        B   C
+      / \   \
+     D  E   F
+    /  / \   \
+    G  H  I  J
+
+
+
+CODE:
+
+mkdir -p A/{B/{D/{G},E/{H,I},C/{F/J}}
+
+
+p=make a parent chain
